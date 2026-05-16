@@ -162,7 +162,9 @@ export function handleFileUpload() {
 
     fileInput.value = "";
 
-    window.location.href = "./assets/treebank.xml";
+    // window.location.href = "./assets/treebank.xml";
+    window.location.href = "./treebanking.html";
+    
   };
 
   reader.readAsText(file, "UTF-8");
